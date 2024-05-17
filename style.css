@@ -12,7 +12,7 @@ body {
 
 nav {
     height: 50px;
-    background-color: #1f2937;
+    background-color: black;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -22,26 +22,26 @@ nav {
 }
 
 h2 {
-    color: #f9faf8;
+    color: lightgray;
     font-size: 16px;
     font-weight: 600;
     margin-right: auto;
 }
 
-a {
-    color: #e5e7eb;
+a, h3 {
+    color: lightgray;
     text-decoration: none;
     font-size: 16px;
     font-weight: 300;
 }
 
 footer {
-    height: 100px;
-    background-color: #1f2937;
+    height: 50px;
+    background-color: black;
     display: flex;
     justify-content: center;
     align-items: center;
     color: #f9faf8;
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 300;
 }
