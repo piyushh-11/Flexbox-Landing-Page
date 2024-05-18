@@ -143,21 +143,53 @@ h1 {
     margin-right: 20px;
 }
 
+.call {
+    background-color: #161617;
+    padding-left: 15%;
+    padding-right: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
 
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    background-color: rgb(0, 110, 219);
+    gap: 20px;
+    border-radius: 10px;
+}
 
 .box button {
-    border: none;
     border-radius: 20px;
     background-color: rgb(0, 110, 219);
     font-size: 16px;
     color: white;
     height: 40px;
     width: 100px;
+    border: 2px solid white;
 }
+
+.box button:hover {
+    background-color: rgb(0, 128, 255)
+}
+
+.box h2 {
+    color: white;
+}
+
+.box h3 {
+    color: white;
+}
+
 
 footer {
     height: 50px;
-    background-color: black;
+    background-color: #161617;
     display: flex;
     justify-content: center;
     align-items: center;
