@@ -35,6 +35,56 @@ a, h3 {
     font-weight: 300;
 }
 
+h1 {
+    color: lightgray;
+    font-size: 48px;
+    font-weight: 500;
+}
+
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+    background-color: black;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 15%;
+    padding-right: 15%;
+    gap: 50px;
+    
+}
+
+.hero-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+
+    flex: 1;
+    flex-basis: 325px;
+}
+
+.hero button {
+    border: none;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background-color: rgb(0, 110, 219);
+    font-size: 16px;
+    color: white;
+    height: 40px;
+    width: 80px;
+}
+
+.hero img {
+    flex: 1;
+    max-width: 50%;
+    height: auto;
+}
+
 footer {
     height: 50px;
     background-color: black;
